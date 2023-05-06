@@ -1,8 +1,8 @@
 import React from 'react';
-import Image from 'next/image';
+import classes from './logo.module.css';
 
 const Logo = () => {
-  return <Image src='/' width={100} height={50} />;
+  return <div className={classes.logo}>Next Blog</div>;
 };
 
 export default Logo;
