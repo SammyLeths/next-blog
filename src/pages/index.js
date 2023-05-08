@@ -11,7 +11,7 @@ function HomePage(props) {
   return (
     <Fragment>
       <Head>
-        <title>Sam's Blog</title>
+        <title>Sam&apos;s Blog</title>
         <meta
           name='description'
           content='I post about programming and web application development'
