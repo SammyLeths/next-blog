@@ -1,4 +1,5 @@
 import { Fragment } from 'react';
+import Head from 'next/head';
 import Hero from '@/components/home-page/hero';
 import FeaturedPosts from '@/components/home-page/featured-posts';
 
@@ -9,6 +10,13 @@ function HomePage(props) {
   // 2) Featured Posts
   return (
     <Fragment>
+      <Head>
+        <title>Sam's Blog</title>
+        <meta
+          name='description'
+          content='I post about programming and web application development'
+        />
+      </Head>
       <Hero />
       <FeaturedPosts posts={props.posts} />
     </Fragment>
